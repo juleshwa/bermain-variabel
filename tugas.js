@@ -29,11 +29,11 @@ console.log('First Word: ' + contohFirstWord);
 /* Tugas III
 1. Memecah kata dalam kalimat menggunakan  Substring
 2. Hasil dalam console / output: 
-        First Word: wow
+        First Word: Asik
         Second Word: JavaScript
-        Third Word: is
-        Fourth Word: so
-        Fifth Word: cool 
+        Third Word: sungguh
+        Fourth Word: keren
+        Fifth Word: banget!
 */
 
 var kalimatDua = "Asik JavaScript sungguh keren banget!";
@@ -47,11 +47,11 @@ console.log('First Word: ' + exampleFirstWord3);
 /* Tugas IV
 1. Memecahkan kalimat perkata dan menghitung banyaknya huruf dengan properti 'length'
 2. Hasil di console / output:
-    First Word: wow, with length: 3
+    First Word: Asik, with length: 4
     Second Word: JavaScript, with length: 10
-    Third Word: is, with length: 2
-    Fourth Word: so, with length: 2
-    Fifth Word: cool, with length: 4
+    Third Word: sungguh, with length: 7
+    Fourth Word: keren, with length: 5
+    Fifth Word: banget, with length: 6
 */
 
 var kalimatTiga = 'wow JavaScript is so cool';

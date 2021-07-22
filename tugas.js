@@ -2,8 +2,9 @@
 1. Mari membentuk sebuah kalimat dengan menggabung-gabungkan kata yang disimpan dalam variabel
 2. Hasil yang muncul (output) dalam console: JavaScript itu asyik dan aku senang banget!
 */
-var kataPertama = "JavaScript"
+var kataPertama = "JavaScript";
 // Tulis kode kamu di bawah ini
+var kataKedua = "itu";
 
 // Contoh penggabungan kata-kata
 console.log('Hello' + ' ' + 'World!')

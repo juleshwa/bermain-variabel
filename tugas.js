@@ -37,11 +37,10 @@ var secondWord = "Javascript"
 var thirdWord = "sungguh"
 var fourthWord = "keren"
 var FifthWord = "banget"
-console.log('First Word: ' + "Asik");
 
-console.log('First Word: ' + contohFirstWord);
 // tuliskan kode kalian di sini
 
+console.log('First Word: ' + "Asik");
 /* Tugas III
 1. Memecah kata dalam kalimat menggunakan  Substring
 2. Hasil dalam console / output: 
@@ -57,9 +56,22 @@ var kalimatDua = "Asik JavaScript sungguh keren banget!";
 var exampleFirstWord3 = kalimatDua.substring(0, 4); // Hasilnya Asik
 // Tulis kode anda di sini
 
+var exampleFirstWord3 = kalimatDua.substring(0, 4);
+var exampleSecondWord = kalimatDua.substring(5, 15);
+var exampleThirdWord = kalimatDua.substring(16, 23);
+var exampleFourthWord = kalimatDua.substring(24, 29);
+var exampleFifthWord = kalimatDua.substring(30, 37);
+
+
+
 console.log('First Word: ' + exampleFirstWord3);
 // Tulis kode ada di sini
 
+console.log('First Word: ' + exampleFirstWord3);
+console.log('Second Word: ' + exampleSecondWord);
+console.log('Third Word: ' + exampleThirdWord);
+console.log('Fourth Word: ' + exampleFourthWord);
+console.log('Fifth Word: ' + exampleFifthWord);
 /* Tugas IV
 1. Memecahkan kalimat perkata dan menghitung banyaknya huruf dengan properti 'length'
 2. Hasil di console / output:

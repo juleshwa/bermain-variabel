@@ -52,18 +52,18 @@ var kalimatDua = "Asik JavaScript sungguh keren banget!";
 // contoh pemenggalan kalimat
 var exampleFirstWord3 = kalimatDua.substring(0, 4); // Hasilnya Asik
 // Tulis kode anda di sini
-let kataA = kalimatDua.substring(0, 4);
-let kataB = kalimatDua.substring(5, 15);
-let kataC = kalimatDua.substring(16, 23);
-let kataD = kalimatDua.substring(24, 29);
-let kataE = kalimatDua.substring(30, 37);
+let kata1 = kalimatDua.substring(0, 4);
+let kata2 = kalimatDua.substring(5, 15);
+let kata3 = kalimatDua.substring(16, 23);
+let kata4 = kalimatDua.substring(24, 29);
+let kata5 = kalimatDua.substring(30, 37);
 console.log ('            ' +  'Tugas III' + '      ');
 console.log ('------------------------------');
-console.log('Kata Pertama:' + kataA);
-console.log('Kata Kedua: ' + kataB);
-console.log('Kata Ketiga: ' + kataC);
-console.log('Kata Keempat: ' + kataD);
-console.log('Kata Kelima: ' + kataE);
+console.log('Kata Pertama: ' + kata1);
+console.log('Kata Kedua: ' + kata2);
+console.log('Kata Ketiga: ' + kata3);
+console.log('Kata Keempat: ' + kata4);
+console.log('Kata Kelima: ' + kata5);
 // Tulis kode ada di sini
 
 

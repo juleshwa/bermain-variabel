@@ -32,7 +32,12 @@ var contohFirstWord = kalimat[1] + kalimat[2] + kalimat[3] + kalimat[4]; // Hasi
 
 // tuliskan kode kalian di sini
 
-
+var firstWord = "Asik"
+var secondWord = "Javascript"
+var thirdWord = "sungguh"
+var fourthWord = "keren"
+var FifthWord = "banget"
+console.log('First Word: ' + "Asik");
 
 console.log('First Word: ' + contohFirstWord);
 // tuliskan kode kalian di sini

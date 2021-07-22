@@ -5,7 +5,14 @@
 var kataPertama = "JavaScript"
 // Tulis kode kamu di bawah ini
 
-console.log('JavaScript' + ' ' +  'itu' + ' ' + 'asyik' + ' ' + 'dan' + ' ' + 'aku' + ' ' + 'senang' + ' ' + 'banget!')
+var kataKedua = "itu"
+var kataKetiga = "asyik"
+var kataKeempat = "dan"
+var kataKelima = "aku"
+var kataKeenam = "senang"
+var kataKetujuh = "banget!"
+
+console.log(kataPertama + ' ' + kataKedua + ' ' + kataKetiga + ' ' + kataKeempat + ' ' + kataKelima + ' ' + kataKeenam + ' ' + kataKetujuh)
 
 // Contoh penggabungan kata-kata
 console.log('Hello' + ' ' + 'World!')

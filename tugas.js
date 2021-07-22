@@ -6,6 +6,8 @@ var kataPertama = "JavaScript";
 // Tulis kode kamu di bawah ini
 var kataKedua = "itu";
 
+console.log(kataPertama + kataKedua);
+
 // Contoh penggabungan kata-kata
 console.log('Hello' + ' ' + 'World!')
 
@@ -63,6 +65,6 @@ var firstWordLength = exampleFirstWord4.length; // Jumlah karakter dalam kata As
 // tulis kode anda di sini
 
 console.log(
-    'First Word: ' + exampleFirstWord + ', with length: ' + firstWordLength
+    'First Word: ' + exampleFirstWord4 + ', with length: ' + firstWordLength
 );
 // tulis kode anda di sini

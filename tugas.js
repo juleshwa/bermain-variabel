@@ -6,7 +6,7 @@ var kataPertama = "JavaScript"
 // Tulis kode kamu di bawah ini
 console.log ('            ' +  'Tugas I' + '      ');
 console.log ('------------------------------');
-console.log (`${kataPertama} itu asyik dan aku senang banget !`);
+console.log (kataPertama + ' ' + 'itu' + ' ' + 'asyik' + ' ' + 'aku' + ' ' + 'senang' + ' ' + 'banget !');
 // Contoh penggabungan kata-kata
 console.log('Hello' + ' ' + 'World!')
 
@@ -27,7 +27,7 @@ var contohFirstWord = kalimat[0] + kalimat[1] + kalimat[2] + kalimat[3]; // Hasi
 let SecondWord = kalimat[4] + kalimat[5] + kalimat[6] + kalimat[7] + kalimat[8] + kalimat[9] + kalimat[10] + kalimat[11] + kalimat[12] + kalimat[13] + kalimat[14];
 let ThirdWord = kalimat[15] + kalimat[16] + kalimat[17] + kalimat[18] + kalimat[19] + kalimat[20] + kalimat[21] + kalimat[22];
 let FourthWord = kalimat[23] + kalimat[24] + kalimat[25] + kalimat[26] + kalimat[27] + kalimat[28];
-let FifthWord = kalimat[29] + kalimat[30] + kalimat[31] + kalimat[32] + kalimat[33] + kalimat[34] + kalimat[35] + kalimat[36]; 
+let FifthWord = kalimat[29] + kalimat[30] + kalimat[31] + kalimat[32] + kalimat[33] + kalimat[34] + kalimat[35] + kalimat[36];
 console.log ('            ' +  'Tugas II' + '      ');
 console.log ('------------------------------');
 
@@ -59,11 +59,11 @@ let kataD = kalimatDua.substring(24, 29);
 let kataE = kalimatDua.substring(30, 37);
 console.log ('            ' +  'Tugas III' + '      ');
 console.log ('------------------------------');
-console.log(`First word: ${kataA}.`);
-console.log(`Second word: ${kataB}.`);
-console.log(`Third word: ${kataC}.`);
-console.log(`Fourth word: ${kataD}.`);
-console.log(`Fifth word: ${kataE}.`);
+console.log('Kata Pertama:' + kataA);
+console.log('Kata Kedua: ' + kataB);
+console.log('Kata Ketiga: ' + kataC);
+console.log('Kata Keempat: ' + kataD);
+console.log('Kata Kelima: ' + kataE);
 // Tulis kode ada di sini
 
 

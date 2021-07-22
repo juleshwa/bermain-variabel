@@ -6,7 +6,10 @@ var kataPertama = "JavaScript";
 // Tulis kode kamu di bawah ini
 var kataKedua = "itu";
 
+console.log('ini tugas I');
+console.log('=====================');
 console.log(kataPertama + kataKedua);
+console.log('=====================');
 
 // Contoh penggabungan kata-kata
 console.log('Hello' + ' ' + 'World!')
@@ -22,7 +25,7 @@ console.log('Hello' + ' ' + 'World!')
 */
 
 var kalimat = 'Asik JavaScript sungguh keren banget!';
-var contohFirstWord = kalimat[1] + kalimat[2] + kalimat[3] + kalimat[4]; // Hasilnya adalah Asik
+var contohFirstWord = kalimat[0] + kalimat[1] + kalimat[2] + kalimat[3]; // Hasilnya adalah Asik
 
 // tuliskan kode kalian di sini
 

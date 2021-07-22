@@ -67,7 +67,6 @@ var exampleFifthWord = kalimatDua.substring(30, 37);
 console.log('First Word: ' + exampleFirstWord3);
 // Tulis kode ada di sini
 
-console.log('First Word: ' + exampleFirstWord3);
 console.log('Second Word: ' + exampleSecondWord);
 console.log('Third Word: ' + exampleThirdWord);
 console.log('Fourth Word: ' + exampleFourthWord);

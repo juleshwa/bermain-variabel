@@ -5,6 +5,15 @@
 var kataPertama = "JavaScript"
 // Tulis kode kamu di bawah ini
 
+var kataKedua = "itu"
+var kataKetiga = "asyik"
+var kataKeempat = "dan"
+var kataKelima = "aku"
+var kataKeenam = "senang"
+var kataKetujuh = "banget!"
+
+console.log(kataPertama + ' ' + kataKedua + ' ' + kataKetiga + ' ' + kataKeempat + ' ' + kataKelima + ' ' + kataKeenam + ' ' + kataKetujuh)
+
 // Contoh penggabungan kata-kata
 console.log('Hello' + ' ' + 'World!')
 
@@ -23,9 +32,15 @@ var contohFirstWord = kalimat[1] + kalimat[2] + kalimat[3] + kalimat[4]; // Hasi
 
 // tuliskan kode kalian di sini
 
-console.log('First Word: ' + contohFirstWord);
+var firstWord = "Asik"
+var secondWord = "Javascript"
+var thirdWord = "sungguh"
+var fourthWord = "keren"
+var FifthWord = "banget"
+
 // tuliskan kode kalian di sini
 
+console.log('First Word: ' + "Asik");
 /* Tugas III
 1. Memecah kata dalam kalimat menggunakan  Substring
 2. Hasil dalam console / output: 
@@ -41,9 +56,21 @@ var kalimatDua = "Asik JavaScript sungguh keren banget!";
 var exampleFirstWord3 = kalimatDua.substring(0, 4); // Hasilnya Asik
 // Tulis kode anda di sini
 
+var exampleFirstWord3 = kalimatDua.substring(0, 4);
+var exampleSecondWord = kalimatDua.substring(5, 15);
+var exampleThirdWord = kalimatDua.substring(16, 23);
+var exampleFourthWord = kalimatDua.substring(24, 29);
+var exampleFifthWord = kalimatDua.substring(30, 37);
+
+
+
 console.log('First Word: ' + exampleFirstWord3);
 // Tulis kode ada di sini
 
+console.log('Second Word: ' + exampleSecondWord);
+console.log('Third Word: ' + exampleThirdWord);
+console.log('Fourth Word: ' + exampleFourthWord);
+console.log('Fifth Word: ' + exampleFifthWord);
 /* Tugas IV
 1. Memecahkan kalimat perkata dan menghitung banyaknya huruf dengan properti 'length'
 2. Hasil di console / output:
@@ -54,14 +81,27 @@ console.log('First Word: ' + exampleFirstWord3);
     Fifth Word: banget, with length: 6
 */
 
-var kalimatTiga = 'wow JavaScript is so cool';
+var kalimatTiga = 'Asik JavaScript sungguh keren banget!';
 var exampleFirstWord4 = kalimatTiga.substring(0, 4); // Hasilnya asik
 // tulis kode anda di sini
+
+let exampleSecondWord4 = kalimatTiga.substring(4, 15);
+let exampleThirdWord4 = kalimatTiga.substring(15, 23);
+let exampleFourthWord4 = kalimatTiga.substring(24, 29);
+let exampleFifthWord4  = kalimatTiga.substring(30, 37);
 
 var firstWordLength = exampleFirstWord4.length; // Jumlah karakter dalam kata Asik
 // tulis kode anda di sini
 
-console.log(
-    'First Word: ' + exampleFirstWord + ', with length: ' + firstWordLength
-);
+let secondWordLength = exampleSecondWord4.length;
+let thirdWordLength = exampleThirdWord4.length;
+let fourthWordLength = exampleFourthWord4.length;
+let fifthWordLength = exampleFifthWord4.length;
+
+console.log('First Word: ' + exampleFirstWord4 + ', with length: ' + firstWordLength);
 // tulis kode anda di sini
+
+console.log('Second Word: ' + exampleSecondWord4 + ', with length: ' + secondWordLength);
+console.log('third Word: ' + exampleThirdWord4 + ', with length: ' + thirdWordLength);
+console.log('four Word: ' + exampleFourthWord4 + ', with length: ' + fourthWordLength);
+console.log('fifth Word: ' + exampleFifthWord4 + ', with length: ' + fifthWordLength);

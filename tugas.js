@@ -81,14 +81,27 @@ console.log('Fifth Word: ' + exampleFifthWord);
     Fifth Word: banget, with length: 6
 */
 
-var kalimatTiga = 'wow JavaScript is so cool';
+var kalimatTiga = 'Asik JavaScript sungguh keren banget!';
 var exampleFirstWord4 = kalimatTiga.substring(0, 4); // Hasilnya asik
 // tulis kode anda di sini
+
+let exampleSecondWord4 = kalimatTiga.substring(4, 15);
+let exampleThirdWord4 = kalimatTiga.substring(15, 23);
+let exampleFourthWord4 = kalimatTiga.substring(24, 29);
+let exampleFifthWord4  = kalimatTiga.substring(30, 37);
 
 var firstWordLength = exampleFirstWord4.length; // Jumlah karakter dalam kata Asik
 // tulis kode anda di sini
 
-console.log(
-    'First Word: ' + exampleFirstWord4 + ', with length: ' + firstWordLength
-);
+let secondWordLength = exampleSecondWord4.length;
+let thirdWordLength = exampleThirdWord4.length;
+let fourthWordLength = exampleFourthWord4.length;
+let fifthWordLength = exampleFifthWord4.length;
+
+console.log('First Word: ' + exampleFirstWord4 + ', with length: ' + firstWordLength);
 // tulis kode anda di sini
+
+console.log('Second Word: ' + exampleSecondWord4 + ', with length: ' + secondWordLength);
+console.log('third Word: ' + exampleThirdWord4 + ', with length: ' + thirdWordLength);
+console.log('four Word: ' + exampleFourthWord4 + ', with length: ' + fourthWordLength);
+console.log('fifth Word: ' + exampleFifthWord4 + ', with length: ' + fifthWordLength);

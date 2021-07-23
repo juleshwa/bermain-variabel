@@ -59,6 +59,12 @@ let kataE = kalimatDua.substring(30, 37);
 console.log('First Word: ' + exampleFirstWord3);
 // Tulis kode ada di sini
 
+console.log(`First word: ${kataA}.`);
+console.log(`Second word: ${kataB}.`);
+console.log(`Third word: ${kataC}.`);
+console.log(`Fourth word: ${kataD}.`);
+console.log(`Fifth word: ${kataE}.`);
+
 /* Tugas IV
 1. Memecahkan kalimat perkata dan menghitung banyaknya huruf dengan properti 'length'
 2. Hasil di console / output:
@@ -72,12 +78,6 @@ console.log('First Word: ' + exampleFirstWord3);
 var kalimatTiga = 'wow JavaScript is so cool';
 var exampleFirstWord4 = kalimatTiga.substring(0, 4); // Hasilnya asik
 // tulis kode anda di sini
-
-console.log(`First word: ${kataA}.`);
-console.log(`Second word: ${kataB}.`);
-console.log(`Third word: ${kataC}.`);
-console.log(`Fourth word: ${kataD}.`);
-console.log(`Fifth word: ${kataE}.`);
 
 var firstWordLength = exampleFirstWord4.length; // Jumlah karakter dalam kata Asik
 // tulis kode anda di sini

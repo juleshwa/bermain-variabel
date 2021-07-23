@@ -5,9 +5,9 @@
 var kataPertama = "JavaScript"
 // Tulis kode kamu di bawah ini
 
-console.log(`${kataPertama} itu asyik dan aku senang banget!`);
+console.log(kataPertama + "itu asyik dan aku senang banget!");
 // Contoh penggabungan kata-kata
-console.log('Hello' + ' ' + 'World!')
+// console.log('Hello' + ' ' + 'World!');
 
 /* Tugas II
 1. Mengakses setiap kata dalam kalimat berdasarkan index dan menyimpannya dalam variabel

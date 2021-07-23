@@ -5,6 +5,15 @@
 var kataPertama = "JavaScript"
 // Tulis kode kamu di bawah ini
 
+var kataKedua = "itu"
+var kataKetiga = "asyik"
+var kataKeempat = "dan"
+var kataKelima = "aku"
+var kataKeenam = "senang"
+var kataKetujuh = "banget !"
+
+console.log(kataPertama + ' ' + kataKedua + ' ' + kataKetiga + ' ' + kataKeempat + ' ' + kataKelima + ' ' + kataKeenam + ' ' + kataKetujuh)
+
 // Contoh penggabungan kata-kata
 console.log('Hello' + ' ' + 'World!')
 
@@ -41,6 +50,12 @@ var kalimatDua = "Asik JavaScript sungguh keren banget!";
 var exampleFirstWord3 = kalimatDua.substring(0, 4); // Hasilnya Asik
 // Tulis kode anda di sini
 
+let kataA = kalimatDua.substring(0, 4);
+let kataB = kalimatDua.substring(5, 15);
+let kataC = kalimatDua.substring(16, 23);
+let kataD = kalimatDua.substring(24, 29);
+let kataE = kalimatDua.substring(30, 37);
+
 console.log('First Word: ' + exampleFirstWord3);
 // Tulis kode ada di sini
 
@@ -58,10 +73,16 @@ var kalimatTiga = 'wow JavaScript is so cool';
 var exampleFirstWord4 = kalimatTiga.substring(0, 4); // Hasilnya asik
 // tulis kode anda di sini
 
+console.log(`First word: ${kataA}.`);
+console.log(`Second word: ${kataB}.`);
+console.log(`Third word: ${kataC}.`);
+console.log(`Fourth word: ${kataD}.`);
+console.log(`Fifth word: ${kataE}.`);
+
 var firstWordLength = exampleFirstWord4.length; // Jumlah karakter dalam kata Asik
 // tulis kode anda di sini
 
 console.log(
-    'First Word: ' + exampleFirstWord + ', with length: ' + firstWordLength
+    'First Word: ' + exampleFirstWord4 + ', with length: ' + firstWordLength
 );
 // tulis kode anda di sini

@@ -6,7 +6,7 @@ var kataPertama = "JavaScript"
 // Tulis kode kamu di bawah ini
 console.log ('            ' +  'Tugas I' + '      ');
 console.log ('------------------------------');
-console.log(`${kataPertama} itu asyik dan aku senang banget!`);
+console.log(kataPertama +' itu asyik dan aku senang banget!');
 // Contoh penggabungan kata-kata
 console.log('Hello' + ' ' + 'World!')
 
@@ -50,11 +50,13 @@ let contohFifthWord = kalimat[29] + kalimat[30] + kalimat[31] + kalimat[32] + ka
 // console.log('First Word: ' + contohFirstWord);
 // tuliskan kode kalian di sini
 // hasil dari contoh
-console.log(`First word: ${contohFirstWord}.`);
-console.log(`Second word: ${contohSecondWord}.`);
-console.log(`Third word: ${contohThirdWord}.`);
-console.log(`Fourth word: ${contohFourthWord}.`);
-console.log(`Fifth word: ${contohFifthWord}.`);
+console.log ('            ' +  'Tugas II' + '      ');
+console.log ('------------------------------');
+console.log("First word: " + contohFirstWord);
+console.log("Second word: " + contohSecondWord);
+console.log("Third word: " + contohThirdWord);
+console.log("Fourth word: " + contohFourthWord);
+console.log('Fifth word: ' + contohFifthWord);
 
 // hasil dengan substring
 // console.log(`First word: ${katapertama}.`);
@@ -94,11 +96,13 @@ let kataE = kalimatDua.substring(30, 37);
 
 // console.log('First Word: ' + exampleFirstWord3);
 // // Tulis kode ada di sini
-console.log(`First word: ${kataA}.`);
-console.log(`Second word: ${kataB}.`);
-console.log(`Third word: ${kataC}.`);
-console.log(`Fourth word: ${kataD}.`);
-console.log(`Fifth word: ${kataE}.`);
+console.log ('            ' +  'Tugas III' + '      ');
+console.log ('------------------------------');
+console.log("First word: " + kataA);
+console.log('Second word: ' + kataB);
+console.log('Third word: ' + kataC);
+console.log('Fourth word: ' + kataD);
+console.log('Fifth word: ' + kataE);
 
 
 /* Tugas IV
@@ -127,9 +131,11 @@ let thirdWordLength = exampleThirdWord4.length;
 let fourthWordLength = exampleFourthWord4.length;
 let fifthWordLength = exampleFifthWord4.length;
 
+console.log ('            ' +  'Tugas IV' + '      ');
+console.log ('------------------------------');
 console.log('First Word: ' + exampleFirstWord4 + ', with length: ' + firstWordLength);
 // tulis kode anda di sini
-console.log(`Second Word: ${exampleSecondWord4}, with length: ${secondWordLength}`);
-console.log(`Third Word: ${exampleThirdWord4}, with length: ${thirdWordLength}`);
-console.log(`Fourth Word: ${exampleFourthWord4}, with length: ${fourthWordLength}`);
-console.log(`Fifth Word: ${exampleFifthWord4}, with length: ${fifthWordLength}`);
+console.log('Second Word: ' + exampleSecondWord4 + ', with length: ' + secondWordLength);
+console.log('Third Word: ' + exampleThirdWord4 + ', with length: ' + thirdWordLength);
+console.log('Fourth Word: ' + exampleFourthWord4 + ', with length: ' + fourthWordLength);
+console.log('Fifth Word: ' + exampleFifthWord4 + ', with length: ' + fifthWordLength);

@@ -4,7 +4,7 @@
 */
 var kataPertama = "JavaScript"
 // Tulis kode kamu di bawah ini
-
+console.log(`${kataPertama} itu asyik dan aku senang banget!`);
 // Contoh penggabungan kata-kata
 console.log('Hello' + ' ' + 'World!')
 
@@ -19,11 +19,21 @@ console.log('Hello' + ' ' + 'World!')
 */
 
 var kalimat = 'Asik JavaScript sungguh keren banget!';
-var contohFirstWord = kalimat[1] + kalimat[2] + kalimat[3] + kalimat[4]; // Hasilnya adalah Asik
+var contohFirstWord = kalimat[0] + kalimat[1] + kalimat[2] + kalimat[3]; // Hasilnya adalah Asik
 
 // tuliskan kode kalian di sini
+let tavarnier = kalimat[4] + kalimat[5] + kalimat[6] + kalimat[7] + kalimat[8] + kalimat[9] + kalimat[10] + kalimat[11] + kalimat[12] + kalimat[13] + kalimat[14];
+let wells = kalimat[15] + kalimat[16] + kalimat[17] + kalimat[18] + kalimat[19] + kalimat[20] + kalimat[21] + kalimat[22];
+let maximin = kalimat[23] + kalimat[24] + kalimat[25] + kalimat[26] + kalimat[27] + kalimat[28];
+let wilock = kalimat[29] + kalimat[30] + kalimat[31] + kalimat[32] + kalimat[33] + kalimat[34] + kalimat[35] + kalimat[36]; 
 
 console.log('First Word: ' + contohFirstWord);
+console.log('Second Word:' + tavarnier);
+console.log('Third Word: ' + wells);
+console.log('Fourth Word: ' + maximin);
+console.log('Fifth Word: ' + wilock);
+
+
 // tuliskan kode kalian di sini
 
 /* Tugas III
@@ -40,9 +50,18 @@ var kalimatDua = "Asik JavaScript sungguh keren banget!";
 // contoh pemenggalan kalimat
 var exampleFirstWord3 = kalimatDua.substring(0, 4); // Hasilnya Asik
 // Tulis kode anda di sini
-
+let kataA = kalimatDua.substring(0, 4);
+let aqua = kalimatDua.substring(5, 15);
+let oasis = kalimatDua.substring(16, 23);
+let fanta = kalimatDua.substring(24, 29);
+let sprite = kalimatDua.substring(30, 37);
 console.log('First Word: ' + exampleFirstWord3);
 // Tulis kode ada di sini
+console.log('First Word: ' + kataA);
+console.log('Second Word:' + aqua);
+console.log('Third Word: ' + oasis);
+console.log('Fourth Word: ' + fanta);
+console.log('Fifth Word: ' + sprite);
 
 /* Tugas IV
 1. Memecahkan kalimat perkata dan menghitung banyaknya huruf dengan properti 'length'
@@ -57,11 +76,21 @@ console.log('First Word: ' + exampleFirstWord3);
 var kalimatTiga = 'wow JavaScript is so cool';
 var exampleFirstWord4 = kalimatTiga.substring(0, 4); // Hasilnya asik
 // tulis kode anda di sini
-
-var firstWordLength = exampleFirstWord4.length; // Jumlah karakter dalam kata Asik
+let exampleSecondWord4 = kalimatTiga.substring(4, 14);
+let exampleThirdWord4 = kalimatTiga.substring(15, 17);
+let exampleFourthWord4 = kalimatTiga.substring(18, 20);
+let exampleFifthWord4  = kalimatTiga.substring(21, 25);
+ // Jumlah karakter dalam kata Asik
+ let secondWordLength = exampleSecondWord4.length;
+let thirdWordLength = exampleThirdWord4.length;
+let fourthWordLength = exampleFourthWord4.length;
+let fifthWordLength = exampleFifthWord4.length;
+var firstWordLength = exampleFirstWord4.length;
 // tulis kode anda di sini
 
-console.log(
-    'First Word: ' + exampleFirstWord + ', with length: ' + firstWordLength
-);
+console.log('First Word: ' + exampleFirstWord4 + ', with length: ' + firstWordLength);
 // tulis kode anda di sini
+console.log('Second Word: ' + exampleSecondWord4 + ', with length: ' + secondWordLength);
+console.log('Third Word: ' + exampleThirdWord4 + ', with length: ' + thirdWordLength);
+console.log('Fourth Word: ' + exampleFourthWord4 + ', with length: ' + fourthWordLength);
+console.log('Fifth Word : ' + exampleFifthWord4 + ', with length: ' + fifthWordLength);
